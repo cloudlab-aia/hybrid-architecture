@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{4b514def-739a-424b-be33-8529ad432e25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="nuevo">
+      <UniqueIdentifier>{2ee736dc-3157-413f-9be6-bb964f63d808}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenGLStuff\glad\src\glad.c">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="ecs\man\componentstorage.cpp">
+      <Filter>nuevo</Filter>
+    </ClCompile>
+    <ClCompile Include="ecs\man\entitymanager.cpp">
+      <Filter>nuevo</Filter>
+    </ClCompile>
+    <ClCompile Include="game\cmp\boxrenderer.cpp">
+      <Filter>nuevo</Filter>
+    </ClCompile>
+    <ClCompile Include="game\cmp\model.cpp">
+      <Filter>nuevo</Filter>
+    </ClCompile>
+    <ClCompile Include="game\rcmp\camera.cpp">
+      <Filter>nuevo</Filter>
+    </ClCompile>
+    <ClCompile Include="game\rcmp\mesh.cpp">
+      <Filter>nuevo</Filter>
+    </ClCompile>
+    <ClCompile Include="game\rcmp\window.cpp">
+      <Filter>nuevo</Filter>
+    </ClCompile>
+    <ClCompile Include="game\sys\collision.cpp">
+      <Filter>nuevo</Filter>
+    </ClCompile>
+    <ClCompile Include="game\sys\input.cpp">
+      <Filter>nuevo</Filter>
+    </ClCompile>
+    <ClCompile Include="game\sys\physics.cpp">
+      <Filter>nuevo</Filter>
+    </ClCompile>
+    <ClCompile Include="game\sys\render.cpp">
+      <Filter>nuevo</Filter>
+    </ClCompile>
+    <ClCompile Include="game\util\entitybuilder.cpp">
+      <Filter>nuevo</Filter>
+    </ClCompile>
+    <ClCompile Include="game\util\stbImpl.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="game\rcmp\shader.cpp">
+      <Filter>nuevo</Filter>
+    </ClCompile>
+    <ClCompile Include="game\man\gamemanager.cpp">
+      <Filter>nuevo</Filter>
+    </ClCompile>
+    <ClCompile Include="game\rcmp\loadedmodel.cpp" />
+    <ClCompile Include="game\sys\ia.cpp" />
+    <ClCompile Include="game\cmp\formation.hpp" />
+    <ClCompile Include="game\man\formation.cpp" />
+    <ClCompile Include="game\rcmp\pointLight.cpp">
+      <Filter>nuevo</Filter>
+    </ClCompile>
+    <ClCompile Include="game\rcmp\directionalLight.cpp">
+      <Filter>nuevo</Filter>
+    </ClCompile>
+    <ClCompile Include="game\icmp\pattern.cpp" />
+    <ClCompile Include="game\util\log.cpp" />
+    <ClCompile Include="game\util\timemeasure.cpp" />
+    <ClCompile Include="game\util\opencl-utils.cpp" />
+    <ClCompile Include="game\cmp\instantiatedModel.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ecs\cmp\component.hpp">
+      <Filter>nuevo</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\cmp\entity.hpp">
+      <Filter>nuevo</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\man\componentstorage.hpp">
+      <Filter>nuevo</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\man\entitymanager.hpp">
+      <Filter>nuevo</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\util\typealiases.hpp">
+      <Filter>nuevo</Filter>
+    </ClInclude>
+    <ClInclude Include="game\cmp\boxcollider.hpp">
+      <Filter>nuevo</Filter>
+    </ClInclude>
+    <ClInclude Include="game\cmp\boxrenderer.hpp">
+      <Filter>nuevo</Filter>
+    </ClInclude>
+    <ClInclude Include="game\cmp\model.hpp">
+      <Filter>nuevo</Filter>
+    </ClInclude>
+    <ClInclude Include="game\cmp\physics.hpp">
+      <Filter>nuevo</Filter>
+    </ClInclude>
+    <ClInclude Include="game\rcmp\camera.hpp">
+      <Filter>nuevo</Filter>
+    </ClInclude>
+    <ClInclude Include="game\rcmp\mesh.hpp">
+      <Filter>nuevo</Filter>
+    </ClInclude>
+    <ClInclude Include="game\rcmp\texture.hpp">
+      <Filter>nuevo</Filter>
+    </ClInclude>
+    <ClInclude Include="game\rcmp\vertex.hpp">
+      <Filter>nuevo</Filter>
+    </ClInclude>
+    <ClInclude Include="game\rcmp\window.hpp">
+      <Filter>nuevo</Filter>
+    </ClInclude>
+    <ClInclude Include="game\sys\collision.hpp">
+      <Filter>nuevo</Filter>
+    </ClInclude>
+    <ClInclude Include="game\sys\input.hpp">
+      <Filter>nuevo</Filter>
+    </ClInclude>
+    <ClInclude Include="game\sys\physics.hpp">
+      <Filter>nuevo</Filter>
+    </ClInclude>
+    <ClInclude Include="game\sys\render.hpp">
+      <Filter>nuevo</Filter>
+    </ClInclude>
+    <ClInclude Include="game\util\entitybuilder.hpp">
+      <Filter>nuevo</Filter>
+    </ClInclude>
+    <ClInclude Include="game\util\typealiases.hpp">
+      <Filter>nuevo</Filter>
+    </ClInclude>
+    <ClInclude Include="game\man\gamemanager.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="game\sys\system.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="game\util\stb_image.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="game\rcmp\shader.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="game\rcmp\loadedmodel.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="game\cmp\ia.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="game\sys\ia.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="game\man\formation.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="game\rcmp\pointLight.hpp">
+      <Filter>nuevo</Filter>
+    </ClInclude>
+    <ClInclude Include="game\rcmp\directionalLight.hpp">
+      <Filter>nuevo</Filter>
+    </ClInclude>
+    <ClInclude Include="game\icmp\pattern.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="game\icmp\datatypes.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="game\util\log.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="game\util\timemeasure.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="game\util\opencl-utils.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="game\cmp\instantiatedModel.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\Fragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\lightningFragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\lightningVertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\pointFragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\pointVertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\sunFragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\sunVertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\Vertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="game\ocl\physics_ocl.cl" />
+    <None Include="game\ocl\ocl_structs.cl" />
+    <None Include="game\ocl\collision_ocl.cl" />
+    <None Include="shaders\instancingVertex.glsl" />
+    <None Include="game\ocl\jaya.cl" />
+    <None Include="game\ocl\mwc64x_rng.cl" />
+    <None Include="game\ocl\skip_mwc.cl" />
+    <None Include="game\ocl\get_min_result.cl" />
+  </ItemGroup>
+</Project>
