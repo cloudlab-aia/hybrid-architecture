@@ -31,9 +31,9 @@ Once all the requirements are installed, clone the repository and open it with V
 This project contains the code, libraries, and game models of the article.
 
 ## Acknowledgements
-This work was supported by the Spanish Research Agency (AEI) (DOI: 10.13039/501100011033) under project Serverless4HPC PID2023-152804OB-I00.
+This research has been performed for the research project <a href="https://aia.ua.es/en/proyectos/federated-serverless-architectures-for-heterogeneous-high-performance-computing-in-smart-manufacturing.html" target="_blank">Federated Serverless Architectures for Heterogeneous High Performance Computing in Smart Manufacturing</a>, at the Applied Intelligent Architectures Research Group of the University of Alicante.
 
-This research has been performed inside the research group Federated Serverless Architectures for Heterogeneous High Performance Computing in Smart Manufacturing, on the Department of Computer Science and Technology, University of Alicante. <a href=https://aia.ua.es/en/proyectos/federated-serverless-architectures-for-heterogeneous-high-performance-computing-in-smart-manufacturing.html>link</a>
+The work was supported by the Spanish Research Agency (AEI) (DOI: 10.13039/501100011033) under project Serverless4HPC PID2023-152804OB-I00.
 
 ## Citation
 ```bibtex
