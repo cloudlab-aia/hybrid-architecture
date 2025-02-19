@@ -33,7 +33,7 @@ This project contains the code, libraries, and game models of the article.
 ## Acknowledgements
 This research has been performed for the research project <a href="https://aia.ua.es/en/proyectos/federated-serverless-architectures-for-heterogeneous-high-performance-computing-in-smart-manufacturing.html" target="_blank">Federated Serverless Architectures for Heterogeneous High Performance Computing in Smart Manufacturing</a>, at the Applied Intelligent Architectures Research Group of the University of Alicante (Spain).
 
-The work was supported by the Spanish Research Agency (AEI) (DOI: 10.13039/501100011033) under project <b>Serverless4HPC PID2023-152804OB-I00</b>.
+Grant <b>Serverless4HPC PID2023-152804OB-I00</b> funded by MICIU/AEI/10.13039/501100011033 and by ERDF/EU.
 
 ## Citation
 ```bibtex
