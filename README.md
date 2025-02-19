@@ -1,4 +1,5 @@
-# Hybrid architecture research
+# Hybrid architecture for AI-based RTS games
+Hybrid architecture for AI-based RTS games [![Feature Requests](https://img.shields.io/badge/Transactions%20on%20Games-2025-blue)](https://doi.org/10.1109/TG.2025.3533949)
 This repository contains the code of the game engine and game prototype used in the research. Inside you can find a visual studio 2019 project, containing the application.
 
 The project is structured into two main folders:
