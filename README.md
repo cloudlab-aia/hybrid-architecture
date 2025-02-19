@@ -49,5 +49,5 @@ This research has been performed inside the research group Federated Serverless 
 ```
 
 ## License Information
-This project is licensed under the GPL-3 license
+This project is licensed under the <a href="LICENSE.txt">GPL-3 license</a>.
 
