@@ -3,7 +3,7 @@
 
 <p align="center">
   <a href="https://doi.org/10.1109/TG.2025.3533949">
-    <img src="https://img.shields.io/badge/Transactions%20on%20Games-2025-blue" alt="Feature Requests">
+    <img src="https://img.shields.io/badge/IEEE%20Transactions%20on%20Games-2025-blue" alt="Feature Requests">
   </a>
 </p>
 
