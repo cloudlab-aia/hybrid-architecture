@@ -38,7 +38,7 @@ Grant <b>Serverless4HPC PID2023-152804OB-I00</b> funded by MICIU/AEI/10.13039/50
 ## Citation
 ```bibtex
 @article{macia-lillo_hybrid_2025,
-	title = {Hybrid {Architecture} for {AI}-{Based} {RTS} {Games}},
+	title = {Hybrid Architecture for AI-Based RTS Games},
 	issn = {2475-1510},
 	doi = {10.1109/TG.2025.3533949},
 	journal = {IEEE Transactions on Games},
